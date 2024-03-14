@@ -43,8 +43,8 @@ public class SupportSystem
                 finished = true;
             }
             else {
-                String response = responder.generateResponse();
-                System.out.println(response);
+                String respuestas = responder.generateResponse(input);
+                System.out.println(respuestas);
             }
         }
         printGoodbye();
